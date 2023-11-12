@@ -124,6 +124,11 @@ form form .field input {
     cursor: pointer;
 }
 
+.form form .field i.active::before{
+    content: "\f070";
+    color: #333;
+}
+
 
 /* Usuarios */
 
